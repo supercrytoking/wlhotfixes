@@ -1,7 +1,7 @@
 Wonderlands Hotfix Archive
 ==========================
 
-This is an archive of the hotfixes which are being sent to Wonderlands.
+This is an archive of the hotfixes which are being sent to Tiny Tina's Wonderlands.
 They were first collected on March 24, right around the official release
 date for the PC version, and have been collected automatically ever
 since that point.
