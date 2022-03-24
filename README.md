@@ -24,7 +24,7 @@ Details
 
 apocalyptech, the person who's historically maintained a list of patch
 details about Borderlands 3, is waiting for the Steam release before
-buying Borderlands, so he won't be maintaining such a list for Wonderlands,
+buying Wonderlands, so he won't be maintaining such a list for this game,
 at least for some time.  If anyone else is interested in maintaining
 a list, let us know!
 
