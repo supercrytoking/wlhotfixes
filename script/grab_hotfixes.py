@@ -106,7 +106,7 @@ def get_hotfix(store, hotfix_url, cache_file):
     return (store, hotfixes, do_write)
 
 # Get our cache dir, and create if it doesn't exist
-cache_dir = appdirs.user_cache_dir('bl3hotfixes', 'Apocalyptech')
+cache_dir = appdirs.user_cache_dir('wlhotfixes', 'Apocalyptech')
 if not os.path.isdir(cache_dir):
     os.makedirs(cache_dir)
 if not os.path.isdir(cache_dir):
