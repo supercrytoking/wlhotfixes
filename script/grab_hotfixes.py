@@ -79,6 +79,13 @@ def get_hotfix(store, hotfix_url, cache_file):
     # If we didn't get hotfixes, error.
     if not hotfixes_new:
         raise Exception('Could not find hotfixes in {}'.format(hotfix_url))
+    
+    # Wonderlands hotfixes seem to change their configuration_group constantly.
+    # It might just be that they're labelled differently on different nodes
+    # sitting behind a load balancer or something.  Regardless, it's causing a
+    # ton of notifications to go out (not to mention a ton of pointless
+    # point-in-time archives), so we're just gonna override it.
+    hotfixes_new['configuration_group'] = 'DaffodilApocOverride'
 
     # Format them
     hotfixes = json.dumps(hotfixes_new, indent='  ')
